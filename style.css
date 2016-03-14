@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+
+.center {
+	text-align: center;	
+}
+
+section img {
+	border-radius: 10px; 
+	border: 1px solid #fff; 
+	box-shadow: 2px 2px 6px #666; 
+	margin: 15px;
+}
+
+#acesseSite {
+	background: rgba(255,255,255,0.5); 
+	padding: 20px 15px; 
+	margin: 35px 0;
+}
+
+p {
+	font-size: 18px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-bottom: 10px; 
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 3px solid #fff;
+	margin: 50px 0px;
+	padding-bottom: 10px;
+	color: #fff
+}
+
+body {
+	background-image: url(imagens/fundo2.jpg);
+	background-position: 0% 0%;
+    background-attachment: fixed;
+}
+
+#principal {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+nav{
+	padding: 10px;
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+}
+
+nav li a:hover { color: #1FEBE4;
+
+}
+
+
+.dirigentes{
+	text-align: left;
+}
+
+.selecionado {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.divulga {
+	font-size: 25px;
+	margin: 50px 0;
+}
+
+
