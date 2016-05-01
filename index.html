@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+  <style>
+
+  	.linha1, .linha2 {
+		margin-bottom: 15px;
+		margin-top: 15px;	
+
+	}
+	
+	.titulo  * {
+		margin-left: 50px;
+		text-align:center;
+		
+	}
+  
+  .center {
+	  text-align: center;
+}
+
+  </style>
+  
+</head>
+<body>
+<div class="jumbotron titulo">
+	<h1>Switchfoot</h1>      
+	<h4> Hope deserves an anthem</h4>
+</div>
+<div class="container">	  
+	<div class="row linha1">
+		<div class="col-sm-4"><img src="jon-foreman.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">  <h4 class="center" > Jon Foreman</h4></div>
+        <div class="col-sm-4"><img src="banda.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"><h4 class="center" > Switchfoot Band </h4></div>
+        <div class="col-sm-4"><img src="TimForeman.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"><h4 class="center" > Tim Foreman </h4></div> 
+    <div class="row linha2">
+    <div class="container">	  
+    <h1> Tour <small> confira os proximos shows </small></h1>
+
+<table class="table table-striped table table-condensed">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Local</th>
+        <th>Cidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>06/05/2016</td>
+        <td>Allianz Parque</td>
+        <td>São Paulo - <abbr title="Brasil"> BRA </abbr> </td>
+      </tr>
+      <tr>
+        <td>20/07/2016</td>
+        <td>The Complex</td>
+        <td>Toronto - <abbr title="Canadá">CAN </abbr> </td>
+      </tr>
+      <tr>
+        <td>12/10/2016</td>
+        <td>Otsego County Fairgrounds</td>
+        <td> Miami - <abbr title="Estados Unidos"> USA </abbr> </td>
+      </tr>
+      <tr>
+        <td>09/07/2016</td>
+        <td>San Diego</td>
+        <td>Califórnia - <abbr title="Estados Unidos"> USA </abbr> 
+        <span class="label label-default"> Próximo </span> </td> 
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<div class="panel-group">
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a data-toggle="collapse" href="#collapse1"><h1> Fotos <small> últimos shows </small></h1></a>
+		  </h4>
+		</div>
+	<div id="collapse1" class="panel-collapse collapse">	  
+    <div class="container">	  
+	<div class="row linha1">
+	<div class="col-sm-4"><img src="bandashow.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></div>
+	<div class="row linha1">
+	<div class="col-sm-4"><img src="Bro-Am4-2show.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"></div>
+    <div class="row linha1">
+    <div class="col-sm-4"><img src="showjon.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+    </div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+
+  	<blockquote> 
+    <h1> Frases </h1>
+    <div class="container">	  
+	<div class="row linha1">
+		<div class="col-sm-6"><p>Esta vida não é uma garantia é uma aventura improvável, caótica, que na maior parte está fora do nosso alcance. Podemos pensar que somos os únicos atrás do volante, mas na realidade estamos apenas pedindo carona.</p> 
+    <footer>Jon Foreman - Vocalista</footer> </div>
+   	<div class="container">	  
+	<div class="row linha1">
+		<div class="col-sm-6"> <p>O caos da vida e da morte está ao nosso redor, mas contra todas as probabilidades estamos aqui, vivos andando pela estrada da vida juntos.</p> 
+        <footer>Jon Foreman - Vocalista</footer> </div> </div> </div> </div> </div>
+  	</blockquote>
+
+</div>
+</div>
+ <div class="container">	  
+	<div class="center">
+    <h1> Cadastre-se <small> Fique por dentro das novidades </small></h1> </div>
+    <div class="row linha2">
+	
+		<div class="container">
+			<dir class="col-md-3"></dir>
+			<form class="form-stl col-md-6">
+
+		<div class="form-group">
+			<label for="nome">Nome: </label>
+			<input type="nome" class="form-control" id="nome" placeholder="">
+		</div>
+
+		<div class="form-group">
+			<label for="email">E-mail: </label>
+			<input  class="form-control" id="email" placeholder="">
+		</div>
+
+		<div class="row linha2">
+
+		<div class="form-group col-md-6">
+			<label for="estado">Estado: </label>
+			<select name="estado">
+				<option value="">Selecione</option>
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas</option>
+				<option value="AP">Amapá</option>
+				<option value="AM">Amazonas</option>
+				<option value="BA">Bahia</option>
+				<option value="CE">Ceará</option>
+				<option value="DF">Distrito Federal</option>
+				<option value="ES">Espirito Santo</option>
+				<option value="GO">Goiás</option>
+				<option value="MA">Maranhão</option>
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MT">Mato Grosso</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="PA">Pará</option>
+				<option value="PB">Paraíba</option>
+				<option value="PR">Paraná</option>
+				<option value="PE">Pernambuco</option>
+				<option value="PI">Piauí</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="RO">Rondônia</option>
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe</option>
+				<option value="TO">Tocantins</option>
+				</select>
+			</div>
+	<div class="btn-group col-md-6" role="group">
+			 <button type="button" class="btn btn-default">Masculino</button>
+			 <button type="button" class="btn btn-default">Feminino</button>
+	</div>
+
+	</div>
+
+	<dir class="form-group col-md-12">
+    
+	
+    <label for="msg">Mensagem: </label>
+	<textarea name="msg" class="form-control" rows="5"></textarea>
+	</dir>
+
+	<button type="submit" class="btn btn-success">Enviar</button>
+	</form>
+
+<div class="col-md-3"></div>
+
+	</div>
+	</div>
+    </div>
+</body>	
+</html>
